@@ -1,7 +1,7 @@
 #!/usr/bin/ansible-playbook
 ---
 - name: Install and Configure MySQL
-  hosts: mysql_servers
+  hosts: all
   become: yes
 
   tasks:
